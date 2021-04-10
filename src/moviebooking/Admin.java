@@ -13,20 +13,37 @@ package moviebooking;
 public class Admin {
     private String password;
 
+    /**
+     * Admin()
+     * constructor for Admin
+     * @param password 
+     */
     public Admin(String password) {
         this.password = password;
     }
     
+    /**
+     * postNewMovie()
+     * posts a new movie
+     */
     public void postNewMovie()
     {
         
     }
     
+    /**
+     * adminMenu()
+     * main menu for admin
+     */
     public void adminMenu()
     {
         
     }
     
+    /**
+     * editMovie()
+     * edits the information of a movie
+     */
     public void editMovie()
     {
         
